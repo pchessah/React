@@ -5,6 +5,7 @@ import Events from './Events';
 import ConditionalRendering2 from './ConditionalRendering2'
 import Lists from './Lists'
 import Forms from './Forms';
+import LiftState from './LIftingState';
 
 function App() {
   const numbers=[1,2,3,4,5,6,7,8]
@@ -28,6 +29,9 @@ function App() {
       <br/>
       <h1>Forms</h1>
       <Forms/>
+      <br/>
+      <h1>Lifting State Up</h1>
+      <LiftState/>
     </div>   
   );
 }
